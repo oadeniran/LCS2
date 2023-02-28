@@ -1,7 +1,7 @@
 name: Pytests
 
 on:
-  worklow_dispatch:
+  workflow_dispatch:
   pull_request:
     types:
       - opened
@@ -28,7 +28,7 @@ jobs:
           pip install pytest
           
       - name: Run pytest
-      - run: |
+        run: |
           pytest
       
 
