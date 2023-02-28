@@ -11,7 +11,7 @@ def test_func():
   assert func(3) == 4
 
 def test_func2():
-  assert func2(3) == 5
+  assert func2(3) == 9
   
 def test_func3():
   assert func3(3) == 6
