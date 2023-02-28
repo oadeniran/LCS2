@@ -24,7 +24,7 @@ jobs:
         
       - name: install libraries
         run: |
-          pythom -m pip install --uprage pip
+          python -m pip install --uprage pip
           pip install pytest
           
       - name: Run pytest
